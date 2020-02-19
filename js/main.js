@@ -19,7 +19,7 @@
 var mailIscritti = ["mario@gmail.com", "maria@gmail.com", "marietto@gmail.com", "marione@gmail.com"]; // Array
 console.log(mailIscritti);
 
-var mailInvitato = prompt("inserisci la tua mail"); // richiesta mail all'utente
+var mailInvitato = prompt("Valida la tua E-Mail"); // richiesta mail all'utente
 console.log(mailInvitato);
 var verifica = false; // variabile falsa
 

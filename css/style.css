@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family:
+
 }
 
 .container {
@@ -11,6 +13,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fphotoluminary.com%2Fwp-content%2Fuploads%2F2011%2F02%2FBonus-Antique-Leather.jpg&f=1&nofb=1");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .box {
@@ -43,4 +48,56 @@
 
 #pippo2.visible {
     display: block;
+}
+
+h3 {
+    color: red;
+}
+
+.box-risultato {
+    height: 120px;
+    width: 100%;
+
+}
+
+.uno {
+    width: 100%;
+    height: 33.33%;
+    display: none;
+}
+
+.due {
+    width: 100%;
+    height: 33.33%;
+    display: none;
+}
+
+.tre {
+    width: 100%;
+    height: 33.33%;
+    display: none;
+}
+
+#risultatoUno .visible {
+    display: block;
+}
+
+#risultatoDue .visible {
+    display: block;
+}
+
+#risultatoTre .visible {
+    display: block;
+}
+
+.box-sx {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-sx h3 {
+    font-size: 30px;
+    color: red;
+       
 }

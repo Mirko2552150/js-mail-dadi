@@ -4,25 +4,29 @@
         <meta charset="utf-8">
         <title>Dadi Solitaria</title>
         <link rel="stylesheet" href="css/style.css">
+        <script src="https://kit.fontawesome.com/e28dfdf91d.js" crossorigin="anonymous"></script>
     </head>
     <body>
         <div class="container">
             <div class="box">
                 <div class="box-sx">
-                    <h1 id="pippo">certified</h1>
-                    <h1 id="pippo2">not certified</h1>
+                    <h3 id="pippo">CERTIFIED</h3>
+                    <h3 id="pippo2">NOT CERTIFIED</h3>
                 </div>
                 <div class="box-dx">
-                    <h1 id="uman"></h1>
-                    <h1 id="pc"></h1>
-                    <h1 id="tiro-um"></h1>
-                    <h1 id="tiro-pc"></h1>
-                    <h1 id="risultato"></h1>
-
+                    <h4>1°Player Name:</h4><h3 id="uman"></h3>
+                    <h4>2°Player Name:</h4><h3 id="pc"></h3>
+                    <h4>Tiro Dadi 1°Player</h4><h3 id="tiro-um"></h3>
+                    <h4>Tiro Dadi 2°Player</h4><h3 id="tiro-pc"></h3>
+                    <div class="box-risultato">
+                        <div id="risultatoUno" class="uno visible">WINNER PLAYER 1</div>
+                        <div id="risultatoDue" class="due visible">WINNER PC</div>
+                        <div id="risultatoTre" class="tre visible">DRAW</div>
+                    </div>
                 </div>
             </div>
         </div>
-        <!-- <script src="js/main.js" charset="utf-8"></script> -->
+        <script src="js/main.js" charset="utf-8"></script>
         <script src="js/main2.js" charset="utf-8"></script>
     </body>
 </html>
