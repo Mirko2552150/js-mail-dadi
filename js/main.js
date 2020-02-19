@@ -14,16 +14,28 @@
 
 // Elenco iscritti Array
 
-var mailIscritti = ["mario@gmail.com", "maria@gmail.com", "marietto@gmail.com", "marione@gmail.com"];
+// farre check email con presenza @!!!!!
+
+var mailIscritti = ["mario@gmail.com", "maria@gmail.com", "marietto@gmail.com", "marione@gmail.com"]; // Array
 console.log(mailIscritti);
 
-// if (mailIscritti = @) {
-//     console.log("è una mail" + mailIscritti );
-// } else {
-//
-// }
-
-// Richiediamo la mail all'invitato
-
-var mailInvitato = prompt("inserisci la tua mail");
+var mailInvitato = prompt("inserisci la tua mail"); // richiesta mail all'utente
 console.log(mailInvitato);
+var verifica = false; // variabile falsa
+
+
+for (var i = 0; i <= mailIscritti.length; i++) {  // ciclo per controllo mail
+    console.log(mailIscritti [i]);
+
+    if (mailInvitato == mailIscritti [i]) { // è sia corretto che sbagliato, uno corretto per le altre 3 scorretto
+        console.log("certified");
+        verifica = true; // stessa variabile è anche vera
+
+    }
+}
+
+if (verifica == true) { // se la variabile è identica == a true fa vedere pippo se no pippo2
+    document.getElementById('pippo').setAttribute("class","visible");
+} else {
+    document.getElementById('pippo2').setAttribute("class","visible");
+}

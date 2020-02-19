@@ -3,3 +3,30 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    width: 500px;
+    height: 300px;
+    border: 1px solid black;
+}
+
+#pippo, #pippo2 {
+    display: none;
+}
+
+#pippo.visible {
+    display: block;
+}
+
+#pippo2.visible {
+    display: block;
+}
