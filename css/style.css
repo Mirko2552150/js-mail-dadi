@@ -19,6 +19,20 @@
     border: 1px solid black;
 }
 
+.box-sx {
+    float: left;
+    width: 50%;
+    height: 100%;
+    border: 2px solid black;
+}
+
+.box-dx {
+    float: left;
+    width: 50%;
+    height: 100%;
+    border: 2px solid black;
+}
+
 #pippo, #pippo2 {
     display: none;
 }
